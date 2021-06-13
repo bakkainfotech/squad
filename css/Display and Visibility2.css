@@ -1,0 +1,42 @@
+span{
+	height: 50px;
+	width: 75px;
+	background: #00ff00;
+	float: right;
+	display: inline-block;
+}
+div{
+	height: 100px;
+	width: 45%;
+	background: #00ffff;
+	clear: right;
+	float: left;
+}
+p{
+	background: #ff00ff;
+	width: 200px;
+	height: 100px;
+	clear: left;
+	display: table-cell;
+	/*Available options that I know of: -
+	1. inline
+	2. inline-block
+	3. block
+	4. none (browser doesn't take up the space)
+	5. table
+	6. table-cell
+	*/
+	overflow: auto;
+	/*Available options for overflow are: -;
+	1. visible
+	2. hidden
+	3. scroll
+	4. auto (preffered)
+	*/
+	clear: both;
+	visibility: visible;
+	/*Available options for visibility are: -;
+	1. visible
+	2. hidden (browser takes up the space for the particular element.)
+	3. collapse (for table elements only)
+}

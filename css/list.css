@@ -1,0 +1,18 @@
+div{
+	display: inline-block;
+	width:45%;
+}
+ol{
+	list-style-type: upper-roman;
+}
+
+ul{
+	list-style-type: square;
+}
+
+/*Uncomment this rule */
+ul, ol{
+	list-style-image: url("https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg");
+}
+
+/*In my code I used a local image.  Can't do that here.*/

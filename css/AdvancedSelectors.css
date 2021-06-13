@@ -1,0 +1,18 @@
+header a{
+	background: #ffff00;
+}
+.sublime{
+	background: #ff0000;
+}
+/*header a.sublime{
+	background: #00ffff;
+}*/
+#demo{
+	background: #0000ff;
+}
+*{
+	background: #ffffff;
+}
+a[href$='.com']{
+	background: #990000 url("imgs/newlogo.png") no-repeat fixed center;
+}

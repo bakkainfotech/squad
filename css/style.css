@@ -1,0 +1,19 @@
+h1{
+	color:black;
+	background-color: yellow;
+	font-family: comic sans-serif;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-align: center;
+}
+p{
+	color:red;
+	background-color: #000000;
+	font-family: Arial;
+	font-style: oblique;
+	font-size: 35px;
+	text-align: justify;
+	text-transform: lowercase;
+	line-height: 150%;
+}

@@ -1,0 +1,109 @@
+body{
+	margin: 1%;
+	/*background: #000000;*/
+	background-image: url("../imgs/squad.png");
+}
+header{
+	box-sizing: border-box;
+	
+	font-family: "Comic Sans MS";
+	border: 10px groove #FFA500;
+	width: 98%;
+	font-size: 60px;
+	background: #FFFF00;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 0px 50px;
+	background-image: linear-gradient(to bottom right, #FF0000, #FFFF00);
+}
+nav a{
+	position: relative;
+	color: #000000;
+	display: inline-block;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px;
+	background: #FFFFFF;
+	opacity: 50%;
+	font-size: 50%;
+}
+.woohoo{
+	transition-property: color, width, background, border-radius, opacity, background-image;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay: .5s;
+}
+.woohoo:active{
+	position: fixed;
+	color: #FFD700;
+	font-size: 0%;
+	background: #000000;
+	background-image: url("../imgs/qtt.jpeg");
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+	transform: translate(-600px,1200px);
+	transform: scale(50.0);
+	opacity: 1;
+}
+.active{
+	color: #000000;
+	opacity: 100%;
+}
+div{
+	box-sizing: border-box;
+
+	border: 5px outset #000000;
+	background: #FF0000;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 70%;
+	font-weight: bold;
+	font-size: 200%;
+	padding: 10px;
+	text-align: center;
+	background-image: url('../imgs/newlogo.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 10%;
+	opacity: 0.8;
+}
+h2{
+	padding: 5px 20px;
+	border: 5px outset #FFA500;
+	background-image: linear-gradient(to bottom right, #FF0000, #FFFF00);
+	text-align: center;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+section{
+	box-sizing: border-box;
+	width: 31%;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+footer{
+	clear: both;
+	color: white;
+	margin-top: 10px;
+	margin-left: 1%;
+}
+/*#popup{
+	position: fixed;
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+	background: #000000;
+	color: #FFFF00;
+	text-align: center;
+	transform: translate(70%);
+}*/

@@ -1,0 +1,35 @@
+p{
+	border: solid;
+	/*Available options are: -
+	1. groove
+	2. solid
+	3. outset
+	4. inset
+	5. dotted
+	6. dashed
+	7. double
+	8. ridge
+	9. hidden
+	10. none*/
+	border-width: 3px 10px;
+	margin: 0 auto;
+}
+div{
+	border: groove;
+	border-width: 3px 10px 20px;
+	padding: 10px;
+	margin: 10px;
+}
+section{
+	border: double;
+	border-width: 3px 10px 20px 30px;
+	margin: 0 auto;
+	width: 60px;
+}
+span{
+	border: solid;
+	border-width: thick;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+}
